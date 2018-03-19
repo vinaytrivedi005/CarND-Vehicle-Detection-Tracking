@@ -1,0 +1,387 @@
+[I 15:06:16.681 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 15:06:17.178 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 15:06:17.178 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 15:06:17.190 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Vehicle-Detection-Tracking
+[I 15:06:17.190 NotebookApp] 0 active kernels 
+[I 15:06:17.190 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 15:06:17.190 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:06:17.191 NotebookApp] No web browser found: could not locate runnable browser.
+[I 15:06:40.151 NotebookApp] 302 GET / (223.237.231.24) 0.49ms
+[I 15:07:25.716 NotebookApp] Kernel started: 50dbe6ab-fab0-48c7-b4ed-4009cba2c216
+[I 15:07:27.275 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20-30.mp4 (223.237.231.24) 1.36ms
+[I 15:09:16.109 NotebookApp] Kernel restarted: 50dbe6ab-fab0-48c7-b4ed-4009cba2c216
+[I 15:09:26.207 NotebookApp] Saving file at /ModelTest.ipynb
+[I 15:11:58.576 NotebookApp] Saving file at /ModelTest.ipynb
+[I 15:18:58.276 NotebookApp] Saving file at /ModelTest.ipynb
+[I 15:34:15.755 NotebookApp] Saving file at /ModelTest.ipynb
+[I 15:54:37.095 NotebookApp] Saving file at /ModelTest.ipynb
+[I 16:13:57.539 NotebookApp] Saving file at /ModelTest.ipynb
+[I 16:33:32.456 NotebookApp] Saving file at /ModelTest.ipynb
+[I 16:48:41.115 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20-30.mp4 (223.237.231.24) 0.69ms
+[I 16:53:30.182 NotebookApp] Saving file at /ModelTest.ipynb
+[I 17:13:08.901 NotebookApp] Saving file at /ModelTest.ipynb
+[I 17:32:25.556 NotebookApp] Saving file at /ModelTest.ipynb
+[I 17:52:22.343 NotebookApp] Saving file at /ModelTest.ipynb
+[I 17:57:11.686 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20-30.mp4 (223.237.231.24) 0.72ms
+[I 18:12:06.529 NotebookApp] Saving file at /ModelTest.ipynb
+[I 18:14:13.062 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_25-36.mp4 (223.237.231.24) 0.68ms
+[I 18:31:48.186 NotebookApp] Saving file at /ModelTest.ipynb
+[I 18:51:31.431 NotebookApp] Saving file at /ModelTest.ipynb
+[I 18:54:02.285 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_25-26.mp4 (223.237.231.24) 0.71ms
+[I 19:10:42.160 NotebookApp] Saving file at /ModelTest.ipynb
+[I 19:12:04.699 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_25-26.mp4 (223.237.231.24) 0.69ms
+[I 19:26:01.895 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_25-26.mp4 (223.237.231.24) 0.66ms
+[I 19:30:31.126 NotebookApp] Saving file at /ModelTest.ipynb
+[I 19:36:11.696 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_25-26.mp4 (223.237.231.24) 0.65ms
+[I 19:39:20.682 NotebookApp] Kernel started: 68f1d732-9671-46b2-9619-0e985ccbefbc
+[I 19:40:04.134 NotebookApp] Kernel restarted: 68f1d732-9671-46b2-9619-0e985ccbefbc
+[I 19:40:15.192 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 19:41:25.412 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 19:43:25.578 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 19:47:07.464 NotebookApp] 302 GET / (141.212.122.128) 0.39ms
+[I 19:48:17.445 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_25-26.mp4 (223.237.231.24) 0.67ms
+[I 19:50:24.675 NotebookApp] Saving file at /ModelTest.ipynb
+[I 20:03:01.401 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_08-18.mp4 (223.237.231.24) 0.73ms
+[I 20:09:52.450 NotebookApp] Saving file at /ModelTest.ipynb
+[I 20:17:05.955 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_08-18.mp4 (223.237.231.24) 0.63ms
+[I 20:29:24.965 NotebookApp] Saving file at /ModelTest.ipynb
+[I 20:31:14.703 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_08-18.mp4 (223.237.231.24) 0.78ms
+[I 20:43:51.223 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_08-18.mp4 (223.237.231.24) 0.68ms
+[I 20:49:06.806 NotebookApp] Saving file at /ModelTest.ipynb
+[I 20:54:24.712 NotebookApp] Saving file at /ModelTest.ipynb
+[I 20:55:46.408 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:06:00.614 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20-30_2.mp4 (223.237.231.24) 0.76ms
+[I 21:08:46.468 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:17:37.500 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28.mp4 (223.237.231.24) 0.65ms
+[W 21:34:02.207 NotebookApp] 404 GET /favicon.ico (223.237.237.142) 7.22ms referer=http://54.213.52.102:8888/view/test_videos_output/project_video_output_23-28.mp4
+[I 21:34:46.381 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20-30_2.mp4 (223.237.237.142) 0.62ms
+[I 21:36:56.424 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:38:54.858 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:41:07.605 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:41:07.981 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.66ms
+[I 21:44:56.179 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:48:34.827 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:52:09.060 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:55:59.573 NotebookApp] Saving file at /ModelTest.ipynb
+[I 21:57:37.356 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.64ms
+[I 21:59:34.946 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:01:09.483 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.66ms
+[I 22:03:13.779 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:03:38.016 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.66ms
+[I 22:06:53.326 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:07:05.537 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.71ms
+[I 22:10:35.216 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:14:14.857 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:16:55.695 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.65ms
+[I 22:18:08.857 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:28:59.023 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:30:48.436 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.64ms
+[I 22:30:50.602 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:32:39.448 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:34:44.542 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.68ms
+[I 22:36:18.951 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:39:59.821 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:41:02.260 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.66ms
+[I 22:43:40.759 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:45:32.259 NotebookApp] Kernel interrupted: 50dbe6ab-fab0-48c7-b4ed-4009cba2c216
+[I 22:45:33.325 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.68ms
+[I 22:47:18.652 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:48:18.595 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.63ms
+[I 22:50:55.332 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:51:01.648 NotebookApp] Kernel interrupted: 50dbe6ab-fab0-48c7-b4ed-4009cba2c216
+[I 22:51:02.521 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.67ms
+[I 22:51:07.884 NotebookApp] Kernel restarted: 50dbe6ab-fab0-48c7-b4ed-4009cba2c216
+[I 22:51:14.699 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:54:16.604 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.67ms
+[I 22:54:38.681 NotebookApp] Saving file at /ModelTest.ipynb
+[I 22:58:20.911 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:01:58.296 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:03:16.592 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_23-28_2.mp4 (223.237.237.142) 0.68ms
+[I 23:05:37.786 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:09:19.692 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:12:57.788 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:16:38.771 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:20:22.095 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:20:45.647 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:24:07.423 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:25:09.091 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0434.mp4 (223.237.237.142) 0.63ms
+[I 23:27:48.921 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:31:13.330 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:34:53.663 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:38:33.712 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:42:13.746 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:45:53.793 NotebookApp] Saving file at /ModelTest.ipynb
+[I 23:48:49.264 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (223.237.237.142) 0.65ms
+[I 23:49:35.833 NotebookApp] Saving file at /ModelTest.ipynb
+[I 02:56:38.083 NotebookApp] 302 GET /aaa/ (93.115.26.91) 0.39ms
+[W 02:56:38.296 NotebookApp] 404 GET /aaa (93.115.26.91) 1.29ms referer=None
+[I 03:19:10.558 NotebookApp] Saving file at /ModelTest.ipynb
+[I 03:26:52.815 NotebookApp] Saving file at /ModelTest.ipynb
+[I 03:33:57.083 NotebookApp] Saving file at /ModelTest.ipynb
+[I 03:36:25.543 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (223.237.237.142) 0.70ms
+[I 03:41:02.026 NotebookApp] Saving file at /ModelTest.ipynb
+[I 03:48:05.166 NotebookApp] Saving file at /ModelTest.ipynb
+[I 03:55:38.678 NotebookApp] Saving file at /ModelTest.ipynb
+[W 03:57:09.259 NotebookApp] WebSocket ping timeout after 98936 ms.
+[E 03:57:09.961 NotebookApp] Uncaught exception GET /api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347 (223.237.237.142)
+    HTTPServerRequest(protocol='http', host='54.213.52.102:8888', method='GET', uri='/api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347', version='HTTP/1.1', remote_ip='223.237.237.142', headers={'Cache-Control': 'no-cache', 'Connection': 'Upgrade', 'Upgrade': 'websocket', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Origin': 'http://54.213.52.102:8888', 'Sec-Websocket-Key': 'coCSGpbjX9YMccNTMABMPw==', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Accept-Language': 'en-US,en;q=0.9', 'Dnt': '1', 'Host': '54.213.52.102:8888', 'Cookie': '_xsrf=2|aa7a6595|fd742746b3e448ce88fc6c3ecc89e1d0|1521385600', 'Accept-Encoding': 'gzip, deflate'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 03:57:10.914 NotebookApp] Uncaught exception GET /api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347 (223.237.237.142)
+    HTTPServerRequest(protocol='http', host='54.213.52.102:8888', method='GET', uri='/api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347', version='HTTP/1.1', remote_ip='223.237.237.142', headers={'Cache-Control': 'no-cache', 'Connection': 'Upgrade', 'Upgrade': 'websocket', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Origin': 'http://54.213.52.102:8888', 'Sec-Websocket-Key': 'coCSGpbjX9YMccNTMABMPw==', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Accept-Language': 'en-US,en;q=0.9', 'Dnt': '1', 'Host': '54.213.52.102:8888', 'Cookie': '_xsrf=2|aa7a6595|fd742746b3e448ce88fc6c3ecc89e1d0|1521385600', 'Accept-Encoding': 'gzip, deflate'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 03:57:11.883 NotebookApp] Uncaught exception GET /api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347 (223.237.237.142)
+    HTTPServerRequest(protocol='http', host='54.213.52.102:8888', method='GET', uri='/api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347', version='HTTP/1.1', remote_ip='223.237.237.142', headers={'Cache-Control': 'no-cache', 'Connection': 'Upgrade', 'Upgrade': 'websocket', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Origin': 'http://54.213.52.102:8888', 'Sec-Websocket-Key': 'coCSGpbjX9YMccNTMABMPw==', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Accept-Language': 'en-US,en;q=0.9', 'Dnt': '1', 'Host': '54.213.52.102:8888', 'Cookie': '_xsrf=2|aa7a6595|fd742746b3e448ce88fc6c3ecc89e1d0|1521385600', 'Accept-Encoding': 'gzip, deflate'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 03:57:12.834 NotebookApp] Uncaught exception GET /api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347 (223.237.237.142)
+    HTTPServerRequest(protocol='http', host='54.213.52.102:8888', method='GET', uri='/api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347', version='HTTP/1.1', remote_ip='223.237.237.142', headers={'Cache-Control': 'no-cache', 'Connection': 'Upgrade', 'Upgrade': 'websocket', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Origin': 'http://54.213.52.102:8888', 'Sec-Websocket-Key': 'coCSGpbjX9YMccNTMABMPw==', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Accept-Language': 'en-US,en;q=0.9', 'Dnt': '1', 'Host': '54.213.52.102:8888', 'Cookie': '_xsrf=2|aa7a6595|fd742746b3e448ce88fc6c3ecc89e1d0|1521385600', 'Accept-Encoding': 'gzip, deflate'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 03:57:13.784 NotebookApp] Uncaught exception GET /api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347 (223.237.237.142)
+    HTTPServerRequest(protocol='http', host='54.213.52.102:8888', method='GET', uri='/api/kernels/50dbe6ab-fab0-48c7-b4ed-4009cba2c216/channels?session_id=EA81F99AB60E497288EBB0CD3E0B0347', version='HTTP/1.1', remote_ip='223.237.237.142', headers={'Cache-Control': 'no-cache', 'Connection': 'Upgrade', 'Upgrade': 'websocket', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Origin': 'http://54.213.52.102:8888', 'Sec-Websocket-Key': 'coCSGpbjX9YMccNTMABMPw==', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Accept-Language': 'en-US,en;q=0.9', 'Dnt': '1', 'Host': '54.213.52.102:8888', 'Cookie': '_xsrf=2|aa7a6595|fd742746b3e448ce88fc6c3ecc89e1d0|1521385600', 'Accept-Encoding': 'gzip, deflate'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[I 04:01:10.451 NotebookApp] 302 GET / (103.236.252.88) 0.40ms
+[W 04:01:11.184 NotebookApp] 404 GET /index.action (103.236.252.88) 1.22ms referer=None
+[I 04:09:31.587 NotebookApp] 302 GET /aastra/ (93.115.26.91) 0.38ms
+[W 04:09:31.803 NotebookApp] 404 GET /aastra (93.115.26.91) 1.07ms referer=None
+[I 04:16:56.457 NotebookApp] 302 GET / (38.140.143.242) 0.39ms
+[I 04:19:31.862 NotebookApp] 302 GET /ata/ (93.115.26.91) 0.37ms
+[W 04:19:32.078 NotebookApp] 404 GET /ata (93.115.26.91) 1.07ms referer=None
+[I 04:20:57.745 NotebookApp] 302 GET /? (125.18.177.101) 0.39ms
+[I 04:20:57.768 NotebookApp] 302 GET /? (103.246.38.196) 0.26ms
+[I 04:20:58.985 NotebookApp] 302 GET / (103.246.38.196) 0.27ms
+[W 04:21:21.150 NotebookApp] 404 GET /favicon.ico (125.18.177.101) 1.28ms referer=None
+[I 04:30:25.876 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:32:26.640 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:33:33.450 NotebookApp] 302 GET /backup/ (93.115.26.91) 0.39ms
+[W 04:33:33.668 NotebookApp] 404 GET /backup (93.115.26.91) 1.22ms referer=None
+[I 04:34:26.056 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:36:26.063 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:38:26.013 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:40:26.492 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:42:27.260 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:44:26.300 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:46:26.253 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:48:26.629 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:49:18.278 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.77ms
+[I 04:49:18.595 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.60ms
+[I 04:50:26.220 NotebookApp] Saving file at /ModelTest.ipynb
+[I 04:51:19.347 NotebookApp] 302 GET /cfg/ (93.115.26.91) 0.39ms
+[W 04:51:19.564 NotebookApp] 404 GET /cfg (93.115.26.91) 1.06ms referer=None
+[I 04:57:55.608 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.82ms
+[I 04:57:55.921 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.83ms
+[I 04:57:56.212 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.80ms
+[I 04:57:56.589 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.81ms
+[I 04:57:56.871 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.81ms
+[I 04:58:26.631 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:00:25.854 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:02:26.388 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:04:26.679 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:06:26.650 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:08:26.931 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:10:26.874 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:12:26.879 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:14:26.643 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:16:26.917 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:17:58.838 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.79ms
+[I 05:17:59.122 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.71ms
+[I 05:17:59.457 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.83ms
+[I 05:17:59.741 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.79ms
+[I 05:18:00.019 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.79ms
+[I 05:18:26.889 NotebookApp] Saving file at /ModelTest.ipynb
+[I 05:58:26.227 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:10:27.001 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:12:23.039 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:16:27.034 NotebookApp] Saving file at /ModelTest.ipynb
+[W 06:16:48.237 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 06:16:48.238 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.39ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 06:16:48.871 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 06:16:48.872 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.31ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[I 06:16:49.472 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.78ms
+[I 06:16:49.793 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.81ms
+[I 06:16:50.154 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.83ms
+[I 06:18:26.376 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:20:27.239 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:22:28.328 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:24:27.486 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:26:27.820 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:28:28.198 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:30:28.703 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:32:28.520 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:33:41.796 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:34:28.366 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:36:27.837 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:36:50.713 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.81ms
+[I 06:36:51.018 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.63ms
+[I 06:36:51.379 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.78ms
+[I 06:36:51.686 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.64ms
+[I 06:36:51.989 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.62ms
+[I 06:38:26.727 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:42:27.780 NotebookApp] Saving file at /ModelTest.ipynb
+[W 06:43:21.107 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 06:43:21.108 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 2.01ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 06:43:21.690 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 06:43:21.691 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.31ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 06:43:22.266 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 06:43:22.267 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.30ms referer=None
+[I 06:43:22.588 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.81ms
+[I 06:43:22.918 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.80ms
+[I 06:44:27.439 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:46:27.690 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:48:27.687 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:50:27.630 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:52:27.946 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:54:27.636 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:56:27.536 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:58:27.465 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:00:27.652 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:02:26.874 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.73ms
+[I 07:02:27.194 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.63ms
+[I 07:02:27.484 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.59ms
+[I 07:02:27.782 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.73ms
+[I 07:02:28.079 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:02:28.178 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 0.66ms
+[I 07:12:27.781 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:14:27.592 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:16:27.593 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:18:27.723 NotebookApp] Saving file at /ModelTest.ipynb
+[W 07:19:20.573 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 07:19:20.574 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.33ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 07:19:21.161 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 07:19:21.161 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.33ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 07:19:21.738 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 07:19:21.739 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.31ms referer=None
+[W 07:19:22.356 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 07:19:22.357 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.33ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 07:19:22.660 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101): No such file or directory: test_videos_output/project_video_output_20180319_0458.mp4
+[W 07:19:22.661 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_0458.mp4 (125.18.177.101) 1.30ms referer=None
+[I 07:20:27.909 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:22:27.970 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:26:27.843 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:28:27.575 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:29:43.143 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.18.177.101) 0.78ms
+[I 07:29:43.457 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.18.177.101) 1.14ms
+[I 07:29:43.754 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.18.177.101) 0.79ms
+[I 07:29:44.057 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.18.177.101) 0.78ms
+[I 07:29:44.352 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.18.177.101) 1.08ms
+[I 07:30:27.595 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:32:28.220 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:33:06.729 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.16.17.150) 0.78ms
+[I 07:33:07.100 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.16.17.150) 0.65ms
+[I 07:33:07.483 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.16.17.150) 0.59ms
+[I 07:33:07.858 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1250.mp4 (125.16.17.150) 0.58ms
+[I 07:34:28.102 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:40:28.243 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:42:28.121 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:44:28.120 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:46:28.167 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:48:28.889 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:50:28.668 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:52:28.373 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:54:28.383 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:56:28.973 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:58:28.643 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:00:28.781 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:06:28.717 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:08:47.860 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:13:47.183 NotebookApp] Saving file at /ModelTest.ipynb
+[W 08:14:33.098 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22): No such file or directory: test_videos_output/project_video_output_20_30_20180319_1325.mp4
+[W 08:14:33.099 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22) 1.33ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 08:14:33.867 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22): No such file or directory: test_videos_output/project_video_output_20_30_20180319_1325.mp4
+[W 08:14:33.868 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22) 1.32ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 08:14:35.678 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22): No such file or directory: test_videos_output/project_video_output_20_30_20180319_1325.mp4
+[W 08:14:35.679 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22) 1.36ms referer=None
+[W 08:14:36.355 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22): No such file or directory: test_videos_output/project_video_output_20_30_20180319_1325.mp4
+[W 08:14:36.356 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22) 1.33ms referer=http://54.213.52.102:8888/notebooks/ModelTest.ipynb
+[W 08:14:36.975 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22): No such file or directory: test_videos_output/project_video_output_20_30_20180319_1325.mp4
+[W 08:14:36.976 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20_30_20180319_1325.mp4 (42.104.97.22) 1.33ms referer=None
+[I 08:18:53.932 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:23:54.320 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:28:53.773 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:30:43.668 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:30:49.778 NotebookApp] Saving file at /ModelTest.ipynb
+[I 08:31:05.216 NotebookApp] Saving file at /ModelTest.ipynb
+[W 08:31:54.001 NotebookApp] delete /ModelTest1.ipynb
+[W 08:31:54.002 NotebookApp] delete /ModelTrain1.ipynb
+[W 08:31:54.016 NotebookApp] delete /P5_2.ipynb
+[W 08:31:54.035 NotebookApp] No such file or directory: ModelTest1.ipynb
+[W 08:31:54.035 NotebookApp] 404 GET /api/contents/ModelTest1.ipynb (199.116.169.254) 0.65ms referer=None
+[W 08:31:54.040 NotebookApp] No such file or directory: ModelTrain1.ipynb
+[W 08:31:54.040 NotebookApp] 404 GET /api/contents/ModelTrain1.ipynb (199.116.169.254) 0.60ms referer=None
+[W 08:31:54.058 NotebookApp] No such file or directory: P5_2.ipynb
+[W 08:31:54.059 NotebookApp] 404 GET /api/contents/P5_2.ipynb (199.116.169.254) 0.65ms referer=None
+[W 08:31:54.077 NotebookApp] Notebook P5.ipynb is not trusted
+[W 08:31:54.563 NotebookApp] Notebook P5.ipynb is not trusted
+[W 08:31:54.575 NotebookApp] delete /P5.ipynb
+[W 08:31:54.576 NotebookApp] delete /model3.p
+[W 08:31:54.578 NotebookApp] delete /HelperFunctions.py
+[W 08:31:54.579 NotebookApp] delete /model2.p
+[I 08:31:56.808 NotebookApp] 302 GET / (199.116.169.254) 0.25ms
