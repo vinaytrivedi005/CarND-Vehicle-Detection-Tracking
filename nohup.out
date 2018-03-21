@@ -385,3 +385,288 @@
 [W 08:31:54.578 NotebookApp] delete /HelperFunctions.py
 [W 08:31:54.579 NotebookApp] delete /model2.p
 [I 08:31:56.808 NotebookApp] 302 GET / (199.116.169.254) 0.25ms
+[C 08:42:25.456 NotebookApp] received signal 15, stopping
+[I 08:42:25.457 NotebookApp] Shutting down kernels
+[I 08:42:25.558 NotebookApp] Kernel shutdown: 68f1d732-9671-46b2-9619-0e985ccbefbc
+[I 08:42:25.558 NotebookApp] Kernel shutdown: 50dbe6ab-fab0-48c7-b4ed-4009cba2c216
+[I 16:00:27.672 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 16:00:28.201 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 16:00:28.201 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 16:00:28.218 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Vehicle-Detection-Tracking
+[I 16:00:28.218 NotebookApp] 0 active kernels 
+[I 16:00:28.218 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 16:00:28.218 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:00:28.219 NotebookApp] No web browser found: could not locate runnable browser.
+[I 16:01:44.578 NotebookApp] Kernel started: ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f
+[W 16:01:45.149 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (223.186.121.244): No such file or directory: test_videos_output/project_video_output_20180319_1345.mp4
+[W 16:01:45.156 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (223.186.121.244) 8.42ms referer=http://35.165.214.20:8888/notebooks/ModelTest.ipynb
+[W 16:08:15.719 NotebookApp] WebSocket ping timeout after 90855 ms.
+[E 16:08:16.006 NotebookApp] Uncaught exception GET /api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED (223.186.121.244)
+    HTTPServerRequest(protocol='http', host='35.165.214.20:8888', method='GET', uri='/api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED', version='HTTP/1.1', remote_ip='223.186.121.244', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Dnt': '1', 'Accept-Language': 'en-US,en;q=0.9', 'Sec-Websocket-Key': 'wrIxrvnqf0NqrxXR3c8L/w==', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_xsrf=2|dfeb98ed|6d304a98513613bdacee1457e9659feb|1521561659', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Cache-Control': 'no-cache', 'Origin': 'http://35.165.214.20:8888', 'Host': '35.165.214.20:8888', 'Upgrade': 'websocket', 'Connection': 'Upgrade'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 16:08:16.840 NotebookApp] Uncaught exception GET /api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED (223.186.121.244)
+    HTTPServerRequest(protocol='http', host='35.165.214.20:8888', method='GET', uri='/api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED', version='HTTP/1.1', remote_ip='223.186.121.244', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Dnt': '1', 'Accept-Language': 'en-US,en;q=0.9', 'Sec-Websocket-Key': 'wrIxrvnqf0NqrxXR3c8L/w==', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_xsrf=2|dfeb98ed|6d304a98513613bdacee1457e9659feb|1521561659', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Cache-Control': 'no-cache', 'Origin': 'http://35.165.214.20:8888', 'Host': '35.165.214.20:8888', 'Upgrade': 'websocket', 'Connection': 'Upgrade'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 16:08:17.668 NotebookApp] Uncaught exception GET /api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED (223.186.121.244)
+    HTTPServerRequest(protocol='http', host='35.165.214.20:8888', method='GET', uri='/api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED', version='HTTP/1.1', remote_ip='223.186.121.244', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Dnt': '1', 'Accept-Language': 'en-US,en;q=0.9', 'Sec-Websocket-Key': 'wrIxrvnqf0NqrxXR3c8L/w==', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_xsrf=2|dfeb98ed|6d304a98513613bdacee1457e9659feb|1521561659', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Cache-Control': 'no-cache', 'Origin': 'http://35.165.214.20:8888', 'Host': '35.165.214.20:8888', 'Upgrade': 'websocket', 'Connection': 'Upgrade'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 16:08:18.509 NotebookApp] Uncaught exception GET /api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED (223.186.121.244)
+    HTTPServerRequest(protocol='http', host='35.165.214.20:8888', method='GET', uri='/api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED', version='HTTP/1.1', remote_ip='223.186.121.244', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Dnt': '1', 'Accept-Language': 'en-US,en;q=0.9', 'Sec-Websocket-Key': 'wrIxrvnqf0NqrxXR3c8L/w==', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_xsrf=2|dfeb98ed|6d304a98513613bdacee1457e9659feb|1521561659', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Cache-Control': 'no-cache', 'Origin': 'http://35.165.214.20:8888', 'Host': '35.165.214.20:8888', 'Upgrade': 'websocket', 'Connection': 'Upgrade'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 16:08:19.354 NotebookApp] Uncaught exception GET /api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED (223.186.121.244)
+    HTTPServerRequest(protocol='http', host='35.165.214.20:8888', method='GET', uri='/api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED', version='HTTP/1.1', remote_ip='223.186.121.244', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Dnt': '1', 'Accept-Language': 'en-US,en;q=0.9', 'Sec-Websocket-Key': 'wrIxrvnqf0NqrxXR3c8L/w==', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_xsrf=2|dfeb98ed|6d304a98513613bdacee1457e9659feb|1521561659', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Cache-Control': 'no-cache', 'Origin': 'http://35.165.214.20:8888', 'Host': '35.165.214.20:8888', 'Upgrade': 'websocket', 'Connection': 'Upgrade'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 16:08:20.244 NotebookApp] Uncaught exception GET /api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED (223.186.121.244)
+    HTTPServerRequest(protocol='http', host='35.165.214.20:8888', method='GET', uri='/api/kernels/ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f/channels?session_id=D3E95E54CB9643F081CE31D1AF71C1ED', version='HTTP/1.1', remote_ip='223.186.121.244', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36', 'Dnt': '1', 'Accept-Language': 'en-US,en;q=0.9', 'Sec-Websocket-Key': 'wrIxrvnqf0NqrxXR3c8L/w==', 'Accept-Encoding': 'gzip, deflate', 'Cookie': '_xsrf=2|dfeb98ed|6d304a98513613bdacee1457e9659feb|1521561659', 'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits', 'Pragma': 'no-cache', 'Sec-Websocket-Version': '13', 'Cache-Control': 'no-cache', 'Origin': 'http://35.165.214.20:8888', 'Host': '35.165.214.20:8888', 'Upgrade': 'websocket', 'Connection': 'Upgrade'})
+    Traceback (most recent call last):
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/web.py", line 1467, in _stack_context_handle_exception
+        raise_exc_info((type, value, traceback))
+      File "<string>", line 4, in raise_exc_info
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+        ret = fn(*args, **kwargs)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/zmq/eventloop/zmqstream.py", line 191, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/services/kernels/handlers.py", line 392, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/notebook/base/zmqhandlers.py", line 258, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/carnd/anaconda3/envs/carnd-term1/lib/python3.5/site-packages/tornado/websocket.py", line 249, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[I 16:17:17.592 NotebookApp] Kernel started: 3b839168-e008-4a7b-b023-b269711fec17
+[C 16:33:18.419 NotebookApp] received signal 15, stopping
+[I 16:33:18.420 NotebookApp] Shutting down kernels
+[I 16:33:18.521 NotebookApp] Kernel shutdown: ea2d7377-66e6-4ba1-ad6c-e565e42d6c9f
+[I 16:33:18.522 NotebookApp] Kernel shutdown: 3b839168-e008-4a7b-b023-b269711fec17
+[I 06:16:25.371 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 06:16:25.928 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 06:16:25.928 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 06:16:25.941 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Vehicle-Detection-Tracking
+[I 06:16:25.941 NotebookApp] 0 active kernels 
+[I 06:16:25.942 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 06:16:25.942 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 06:16:25.942 NotebookApp] No web browser found: could not locate runnable browser.
+[I 06:17:21.433 NotebookApp] 302 GET / (125.18.177.97) 0.61ms
+[I 06:17:21.565 NotebookApp] 302 GET / (103.246.38.196) 0.32ms
+[I 06:20:22.362 NotebookApp] Kernel started: 66d51bea-2adf-49df-a181-718dd90c501b
+[I 06:21:26.694 NotebookApp] Saving file at /ModelTest.ipynb
+[W 06:21:38.739 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97): No such file or directory: test_videos_output/project_video_output_20180319_1345.mp4
+[W 06:21:38.747 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97) 8.66ms referer=http://34.212.237.149:8888/notebooks/ModelTest.ipynb
+[W 06:21:39.033 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97): No such file or directory: test_videos_output/project_video_output_20180319_1345.mp4
+[W 06:21:39.034 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97) 1.58ms referer=http://34.212.237.149:8888/notebooks/ModelTest.ipynb
+[W 06:21:39.289 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97): No such file or directory: test_videos_output/project_video_output_20180319_1345.mp4
+[W 06:21:39.290 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97) 1.43ms referer=None
+[W 06:21:39.561 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97): No such file or directory: test_videos_output/project_video_output_20180319_1345.mp4
+[W 06:21:39.562 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97) 1.59ms referer=http://34.212.237.149:8888/notebooks/ModelTest.ipynb
+[W 06:21:39.817 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97): No such file or directory: test_videos_output/project_video_output_20180319_1345.mp4
+[W 06:21:39.817 NotebookApp] 404 GET /notebooks/test_videos_output/project_video_output_20180319_1345.mp4 (125.18.177.97) 1.44ms referer=None
+[I 06:21:47.946 NotebookApp] Kernel started: 8df0d8ee-9a9e-4b89-be07-9459b8589da8
+[W 06:21:53.702 NotebookApp] 404 GET /favicon.ico (125.18.177.97) 1.89ms referer=None
+[W 06:22:12.141 NotebookApp] 404 GET /favicon.ico (125.18.177.97) 1.09ms referer=None
+[I 06:22:28.413 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:24:28.121 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:25:48.468 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:26:27.940 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:27:48.469 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:28:27.556 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:29:49.313 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:32:55.035 NotebookApp] Saving file at /ModelTest.ipynb
+[W 06:34:13.560 NotebookApp] Replacing stale connection: 66d51bea-2adf-49df-a181-718dd90c501b:139A8F784C6F4F6C8309C0255005962E
+[I 06:34:27.320 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:34:42.683 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180321_1150.mp4 (125.18.177.97) 0.93ms
+[I 06:34:43.017 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180321_1150.mp4 (125.18.177.97) 0.89ms
+[I 06:34:43.291 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180321_1150.mp4 (125.18.177.97) 0.93ms
+[I 06:34:43.581 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180321_1150.mp4 (125.18.177.97) 0.90ms
+[I 06:34:43.864 NotebookApp] 302 GET /notebooks/test_videos_output/project_video_output_20180321_1150.mp4 (125.18.177.97) 0.89ms
+[I 06:36:27.853 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:38:28.414 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:40:29.468 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:42:28.600 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:44:28.363 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:45:48.476 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:46:28.439 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:47:48.466 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:48:28.486 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:49:48.526 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:50:28.457 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:54:28.101 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:55:48.468 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:56:27.881 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:57:48.555 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:58:27.700 NotebookApp] Saving file at /ModelTest.ipynb
+[I 06:58:35.767 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 06:58:38.187 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:00:28.367 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:02:28.129 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:03:48.467 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:04:28.419 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:05:48.809 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:06:28.967 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:07:49.330 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:08:28.187 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:10:28.412 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:11:48.716 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:12:28.416 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:13:48.736 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:14:28.610 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:15:48.753 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:16:28.449 NotebookApp] Saving file at /ModelTest.ipynb
+[I 07:17:48.696 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:24:44.076 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:24:44.592 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:24:44.768 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 07:24:47.055 NotebookApp] Saving file at /ModelTest.ipynb
+[C 07:24:57.601 NotebookApp] received signal 15, stopping
+[I 07:24:57.602 NotebookApp] Shutting down kernels
+[I 07:24:57.703 NotebookApp] Kernel shutdown: 8df0d8ee-9a9e-4b89-be07-9459b8589da8
+[I 07:24:57.703 NotebookApp] Kernel shutdown: 66d51bea-2adf-49df-a181-718dd90c501b
+[I 09:37:55.943 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 09:37:56.480 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 09:37:56.480 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 09:37:56.493 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Vehicle-Detection-Tracking
+[I 09:37:56.493 NotebookApp] 0 active kernels 
+[I 09:37:56.493 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 09:37:56.493 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 09:37:56.493 NotebookApp] No web browser found: could not locate runnable browser.
+[I 09:38:06.029 NotebookApp] 302 GET / (103.246.38.196) 0.62ms
+[I 09:38:11.845 NotebookApp] Kernel started: c6dfee5a-e7a9-4829-a0bb-846dc5380a75
+[I 09:38:19.259 NotebookApp] Kernel started: f7e38fae-5a34-4bfe-8c70-ee228a62e3ab
+[I 09:40:12.546 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 09:42:12.566 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 09:44:13.440 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 09:44:26.123 NotebookApp] Saving file at /ModelTest.ipynb
+[I 09:46:24.756 NotebookApp] Saving file at /ModelTest.ipynb
+[I 09:48:27.223 NotebookApp] Saving file at /ModelTest.ipynb
+[I 09:50:28.095 NotebookApp] Saving file at /ModelTest.ipynb
+[I 09:52:27.885 NotebookApp] Saving file at /ModelTest.ipynb
+[I 09:54:26.850 NotebookApp] Saving file at /ModelTest.ipynb
+[I 09:54:40.791 NotebookApp] Saving file at /ModelTest.ipynb
+[I 09:56:26.601 NotebookApp] Saving file at /ModelTest.ipynb
+[I 09:58:27.980 NotebookApp] Saving file at /ModelTest.ipynb
+[I 10:00:28.097 NotebookApp] Saving file at /ModelTest.ipynb
+[I 10:02:52.209 NotebookApp] Saving file at /ModelTest.ipynb
+[I 10:08:42.493 NotebookApp] Saving file at /ModelTest.ipynb
+[I 10:14:21.059 NotebookApp] Saving file at /ModelTest.ipynb
+[I 10:16:12.592 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 10:18:13.345 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 10:19:36.504 NotebookApp] Saving file at /ModelTrain.ipynb
+[I 10:19:45.804 NotebookApp] Saving file at /ModelTest.ipynb
+[W 10:19:47.217 NotebookApp] 404 GET /favicon.ico (125.18.177.101) 7.71ms referer=None
+[I 10:19:47.350 NotebookApp] 302 GET / (103.246.38.196) 0.46ms
+[W 10:20:25.251 NotebookApp] Notebook ModelTest.ipynb is not trusted
+[W 10:20:25.426 NotebookApp] 404 GET /favicon.ico (125.18.177.101) 1.32ms referer=None
+[W 10:20:25.614 NotebookApp] Notebook ModelTest.ipynb is not trusted
+[W 10:26:06.955 NotebookApp] 404 GET /favicon.ico (125.18.177.101) 1.39ms referer=None
+[I 10:26:06.961 NotebookApp] Creating new directory in 
+[I 10:26:56.586 NotebookApp] Uploading file to /README/output_12_2.png
+[I 10:26:57.186 NotebookApp] Uploading file to /README/output_12_1.png
+[I 10:26:57.371 NotebookApp] Uploading file to /README/output_11_20.png
+[I 10:27:03.374 NotebookApp] Uploading file to /README/output_11_19.png
+[I 10:27:03.934 NotebookApp] Uploading file to /README/output_11_17.png
+[I 10:27:04.976 NotebookApp] Uploading file to /README/output_11_15.png
+[I 10:27:05.534 NotebookApp] Uploading file to /README/output_11_18.png
+[I 10:27:06.409 NotebookApp] Uploading file to /README/output_11_12.png
+[I 10:27:06.578 NotebookApp] Uploading file to /README/output_11_13.png
+[I 10:27:07.343 NotebookApp] Uploading file to /README/output_11_8.png
+[I 10:27:08.016 NotebookApp] Uploading file to /README/output_11_5.png
+[I 10:27:09.024 NotebookApp] Uploading file to /README/output_11_9.png
+[I 10:27:09.225 NotebookApp] Uploading file to /README/output_11_1.png
+[I 10:27:11.890 NotebookApp] Uploading file to /README/output_11_4.png
+[I 10:27:12.321 NotebookApp] Uploading file to /README/output_11_14.png
+[I 10:27:12.941 NotebookApp] Uploading file to /README/output_11_11.png
+[I 10:27:13.968 NotebookApp] Uploading file to /README/output_11_16.png
+[I 10:27:15.669 NotebookApp] Uploading file to /README/output_11_7.png
+[I 10:27:16.043 NotebookApp] Uploading file to /README/output_11_3.png
+[I 10:27:20.410 NotebookApp] Uploading file to /README/output_11_2.png
+[W 10:27:20.813 NotebookApp] No such file or directory: README/ModelTrain.md
+[W 10:27:20.814 NotebookApp] 404 GET /api/contents/README/ModelTrain.md (103.246.38.196) 1.10ms referer=None
+[W 10:27:20.913 NotebookApp] No such file or directory: README/ModelTrain.md
+[W 10:27:20.914 NotebookApp] 404 GET /api/contents/README/ModelTrain.md (155.64.38.90) 1.01ms referer=None
+[I 10:27:21.216 NotebookApp] Uploading file to /README/output_11_10.png
+[I 10:27:21.797 NotebookApp] Uploading file to /README/ModelTrain.md
+[I 10:27:22.256 NotebookApp] Saving file at /README/output_11_10.png
+[I 10:27:22.425 NotebookApp] Uploading file to /README/output_11_6.png
+[I 10:28:17.177 NotebookApp] Saving file at /ModelTrain.ipynb
+[W 10:33:55.471 NotebookApp] Notebook ModelTest.ipynb is not trusted
+[W 10:33:55.572 NotebookApp] Notebook ModelTest.ipynb is not trusted
+[W 10:34:13.079 NotebookApp] Notebook ModelTest.ipynb is not trusted
+[W 10:34:56.746 NotebookApp] delete /README.md
+[W 10:34:56.766 NotebookApp] delete /writeup_template.md
+[W 10:34:57.103 NotebookApp] No such file or directory: writeup_template.md
+[W 10:34:57.104 NotebookApp] 404 GET /api/contents/writeup_template.md (103.246.38.196) 1.02ms referer=None
+[W 10:34:57.117 NotebookApp] No such file or directory: README.md
+[W 10:34:57.117 NotebookApp] 404 GET /api/contents/README.md (103.246.38.196) 0.70ms referer=None
+[I 10:35:16.398 NotebookApp] Interrupted...
+[I 10:35:16.398 NotebookApp] Shutting down kernels
+[I 10:35:16.600 NotebookApp] Kernel shutdown: f7e38fae-5a34-4bfe-8c70-ee228a62e3ab
+[I 10:35:16.801 NotebookApp] Kernel shutdown: c6dfee5a-e7a9-4829-a0bb-846dc5380a75
